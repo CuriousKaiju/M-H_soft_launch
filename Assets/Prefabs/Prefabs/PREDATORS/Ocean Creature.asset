@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6bcc9cba22947a127e870cd5c8be, type: 3}
+  m_Name: Ocean Creature
+  m_EditorClassIdentifier: 
+  _pray:
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  _bosses:
+  - {fileID: 2275986016787632525, guid: f71046b4c5d20804f992f52227251ef6, type: 3}
+  - {fileID: 2275986016787632525, guid: 5ce03dd616b5dd24380e83f82a768dce, type: 3}
+  - {fileID: 2275986016787632525, guid: 4ef08dd00e0b34f488b5d7eaace9464a, type: 3}
+  - {fileID: 2275986016787632525, guid: 508a09d711561e745b16a406299c32de, type: 3}
+  - {fileID: 2275986016787632525, guid: ce557d237839e2a498eb6682b117ed47, type: 3}
+  _predators:
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
+  - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
