@@ -11,14 +11,44 @@ public class BottomTabs : MonoBehaviour
     [SerializeField] private MainMenuButton _talantesButton;
 
     [SerializeField] private GameObject[] _mergeComponents;
+    [SerializeField] private GameObject[] _mapComponents;
+
+
+    private void Start()
+    {
+        SetStartMenu();
+    }
+    private void SetStartMenu()
+    {
+        if (PlayerPrefs.HasKey("MenuStatus"))
+        {
+            switch (PlayerPrefs.GetString("MenuStatus"))
+            {
+                case "Merge":
+                    MergeMenu();
+                    Debug.Log("Merge");
+                    break;
+
+                case "Map":
+                    MapMenu();
+                    Debug.Log("Map");
+                    break;
+            }
+        }
+        else
+        {
+            MergeMenu();
+        }
+    }
 
     public void MergeMenu()
     {
         _playButton.gameObject.SetActive(false);
         _mapButton.gameObject.SetActive(true);
-        _talantesButton.OffButton();
+        //_talantesButton.OffButton();
         _mergeButton.SelectButton();
         SetGOArrayStatus(_mergeComponents, true);
+        SetGOArrayStatus(_mapComponents, false);
     }
 
     public void TalantesMenu()
@@ -26,9 +56,10 @@ public class BottomTabs : MonoBehaviour
         DOTween.KillAll();
         _playButton.gameObject.SetActive(false);
         _mapButton.gameObject.SetActive(true);
-        _talantesButton.SelectButton();
+        //_talantesButton.SelectButton();
         _mergeButton.OffButton();
         SetGOArrayStatus(_mergeComponents, false);
+        SetGOArrayStatus(_mapComponents, true);
     }
 
     public void MapMenu()
@@ -37,9 +68,10 @@ public class BottomTabs : MonoBehaviour
         _playButton.gameObject.SetActive(true);
         _mapButton.gameObject.SetActive(false);
         _playButton.SuperSize();
-        _talantesButton.OffButton();
+        //_talantesButton.OffButton();
         _mergeButton.OffButton();
         SetGOArrayStatus(_mergeComponents, false);
+        SetGOArrayStatus(_mapComponents, true);
     }
 
     private void SetGOArrayStatus(GameObject[] array, bool status)

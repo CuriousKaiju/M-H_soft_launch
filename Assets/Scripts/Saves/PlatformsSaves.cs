@@ -27,7 +27,6 @@ public class PlatformsSaves : MonoBehaviour
         }
         else
         {
-            _platformHandler.SetTutorialStatus(true);
             _platformHandler.SpawnAnimalsFromSaves(_savesPlatformArrayForStart);
         }
 
