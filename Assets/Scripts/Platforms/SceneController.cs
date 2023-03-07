@@ -39,6 +39,8 @@ public class SceneController : MonoBehaviour
     [SerializeField] private Vector3 _punchScale;
     [SerializeField] private float _punchScaleDuration;
     [SerializeField] private MergeLocationHandler _mergeLocationHandler;
+    [SerializeField] private GameObject _finger;
+    [SerializeField] private GameObject _fingerHunt;
     private int _currentBuyLevel;
     private int _visualLevel;
     private void Awake()
@@ -64,6 +66,27 @@ public class SceneController : MonoBehaviour
         _mergeLocationHandler.SetLocation(_levels[_nextLevel].sceneType);
 
         GameEvents.OnMoneyChange += UnlockNewSlotAndChangeMeat;
+
+    }
+    private void Start()
+    {
+        SetFingerStatus();
+    }
+    public void SetHuntFingerStatus(bool status)
+    {
+        _fingerHunt.SetActive(true);
+    }
+    public void SetFingerStatus()
+    {
+        if (PlayerPrefs.HasKey("FirstMerge"))
+        {
+            _finger.SetActive(false);
+
+        }
+        else
+        {
+            _finger.SetActive(true);
+        }
     }
 
     private void SpawnCostArray()
@@ -176,6 +199,7 @@ public class SceneController : MonoBehaviour
     }
     public void LoadLevel()
     {
+        _fingerHunt.SetActive(false);
         SceneManager.LoadScene(_levels[_nextLevel].sceneType);
     }
         

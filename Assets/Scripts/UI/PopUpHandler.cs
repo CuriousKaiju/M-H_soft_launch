@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class PopUpHandler : MonoBehaviour
 {
@@ -17,11 +18,14 @@ public class PopUpHandler : MonoBehaviour
 
     public void LoadMap(string LeveType)
     {
+        DOTween.KillAll();
         PlayerPrefs.SetString("MenuStatus", LeveType);
         SceneManager.LoadScene("MainScene");
     }
     public void LoadMapLose()
     {
+        DOTween.KillAll();
+        PlayerPrefs.SetString("MenuStatus", "Map");
         TinySauce.OnGameFinished(false, 0, _currentLevel.ToString());
         Debug.Log("Lose:" + _currentLevel);
         SceneManager.LoadScene("MainScene");

@@ -11,7 +11,6 @@ public class PlatformsHandler : MonoBehaviour
     [SerializeField] private SavesPlatformArray _arrayForSaves;
     [SerializeField] private GameObject _animalPlatform;
     [SerializeField] private SceneController _sceneController;
-    [SerializeField] private GameObject _tutorial;
 
     private void Awake()
     {
@@ -32,10 +31,7 @@ public class PlatformsHandler : MonoBehaviour
 
     }
 
-    public void SetTutorialStatus(bool status)
-    {
-        _tutorial.SetActive(status);
-    }
+
 
 
     public void RewriteFreePlatformsList()

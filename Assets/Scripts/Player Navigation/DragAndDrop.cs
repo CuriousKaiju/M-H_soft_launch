@@ -45,7 +45,6 @@ public class DragAndDrop : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             HitRayAndTryToFindPlatform();
-            _platformsHandler.SetTutorialStatus(false);
         }
         else if (_isFingerOnTheScreen)
         {
@@ -74,11 +73,19 @@ public class DragAndDrop : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, 100, _platformLayer))
         {
+            
             _selectedPlatform = hit.collider.transform;
             Platform selectedPlatform = hit.collider.gameObject.GetComponent<Platform>();
 
             if (!selectedPlatform._isPlatformFree && selectedPlatform._isItBoughtPlatform)
             {
+                if(!PlayerPrefs.HasKey("FirstMerge"))
+                {
+                    PlayerPrefs.SetString("FirstMerge", "FirstMerge");
+                    _sceeControllern.SetHuntFingerStatus(true);
+                    _sceeControllern.SetFingerStatus();
+                }
+
                 _tapSound.Play();
 
                 _selectedAnimal = selectedPlatform.GetCurrentAnimal();

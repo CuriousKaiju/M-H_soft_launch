@@ -14,12 +14,12 @@ public class MainMenuButton : MonoBehaviour
     private bool _scalePhase;
     [SerializeField] private float _desiredScaleTime;
     private float _elapsedScaleTime;
-    private float _basicPreferredWidth;
-    private float _selectedPreferredWidth;
+    public float _basicPreferredWidth;
+    public float _selectedPreferredWidth;
 
     void Start()
     {
-        _basicPreferredWidth = _layoutElement.preferredWidth;
+        //_basicPreferredWidth = _layoutElement.preferredWidth;
         _selectedPreferredWidth = _basicPreferredWidth * 1.18f;
 
         if (_isItPlayMap)
