@@ -5,6 +5,7 @@ using PathCreation;
 
 public class LevelsController : MonoBehaviour
 {
+    [SerializeField] private SceneController _sceneController;
     [SerializeField] private PathCreator _pathCreator;
     [SerializeField] private MapPoint[] _points;
 
@@ -38,7 +39,7 @@ public class LevelsController : MonoBehaviour
                 totalDistance += _distanceBetweenPoints;
                 _camera.transform.position = _points[i].transform.position + _cameraOffset;
 
-                for(int j = 0; j < _smoothFactor; j++)
+                for (int j = 0; j < _smoothFactor; j++)
                 {
                     _sphere.SetPosition(totalDistanceForLine);
                     _lineRenderer.SetPosition(linePointID, _sphere.transform.position);
@@ -51,13 +52,18 @@ public class LevelsController : MonoBehaviour
                 _points[i].SetPointParams(i + 1, _pathCreator, totalDistance, transform);
                 totalDistance += _distanceBetweenPoints;
 
-                for(int j = 0; j < _smoothFactor; j++)
+                for (int j = 0; j < _smoothFactor; j++)
                 {
                     _sphere.SetPosition(totalDistanceForLine);
                     _lineRenderer.SetPosition(linePointID, _sphere.transform.position);
                     linePointID += 1;
                     totalDistanceForLine += distanceBetweenLinePoints;
                 }
+            }
+
+            if(_sceneController.ReturnLevelBossStatus(i))
+            {
+                _points[i].SetBossStatus();
             }
         }
     }

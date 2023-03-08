@@ -9,6 +9,7 @@ public class MapPoint : MonoBehaviour
     [Header("COMPONENTS")]
     [SerializeField] private TextMeshPro _levelText;
     [SerializeField] private GameObject _particles;
+    [SerializeField] private GameObject _bossMarker;
     [SerializeField] private MeshRenderer[] _meshRenderers;
     public PathCreator _pathCreator;
 
@@ -20,6 +21,10 @@ public class MapPoint : MonoBehaviour
     [SerializeField] private Material[] _offMaterials;
 
 
+    public void SetBossStatus()
+    {
+        _bossMarker.SetActive(true);
+    }
 
     public void SetPointParams(int levelID, PathCreator pathCreator, float distanceTraveled, Transform parent,  bool isItCurrentLevel)
     {

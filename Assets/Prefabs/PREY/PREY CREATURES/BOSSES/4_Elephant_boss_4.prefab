@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 4434145378007975761}
   - component: {fileID: 4489197052794848756}
   m_Layer: 0
-  m_Name: Elephant_boss_3
+  m_Name: 4_Elephant_boss_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

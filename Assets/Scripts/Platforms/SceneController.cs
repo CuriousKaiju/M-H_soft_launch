@@ -68,6 +68,11 @@ public class SceneController : MonoBehaviour
         GameEvents.OnMoneyChange += UnlockNewSlotAndChangeMeat;
 
     }
+    public bool ReturnLevelBossStatus(int level)
+    {
+        return _levels[level].isLevelWithBoss;
+    }
+
     private void Start()
     {
         SetFingerStatus();
