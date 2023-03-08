@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isItTutorial: 0
   levelID: 0
-  preyOnTheHunt: 0500000003000000
+  preyOnTheHunt: 01000000
   isLevelWithBoss: 0
   boss: 0
-  levelSpeed: 0.1
-  minPreyShift: 0.13
-  maxPreyShift: 0.2
+  levelSpeed: 0.13
+  minPreyShift: 0.23
+  maxPreyShift: 0.4
   minPredatorsShift: -0.08
   maxPredatorsShift: 0
   minBossShift: 0.1
   maxBossShift: 0.2
-  sceneType: Plains
-  availablePathesForPredators: 10
-  availablePathesForPrey: 8
+  sceneType: Ocean
+  availablePathesForPredators: 12
+  availablePathesForPrey: 12

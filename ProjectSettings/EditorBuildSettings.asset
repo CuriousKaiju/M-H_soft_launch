@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 4de28a452cf5aca4a85f211fde9f8aff
   - enabled: 1
-    path: Assets/Scenes/Plains.unity
-    guid: 425bdb0e8c3023548ad30c624dada3cc
-  - enabled: 1
     path: Assets/Scenes/Ocean.unity
     guid: 5319d9cd67ec3764c984b58c78bcdd27
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Savanna.unity
     guid: d34203b0ed661ea4c8d9add551bc4200
+  - enabled: 1
+    path: Assets/Scenes/Plains.unity
+    guid: b01e3d294bd55454583b5c293de4fdb9
   m_configObjects: {}

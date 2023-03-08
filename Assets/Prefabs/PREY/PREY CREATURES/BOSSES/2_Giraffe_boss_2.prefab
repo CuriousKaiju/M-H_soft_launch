@@ -492,8 +492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aa2eb9dde05db49bf5b6e324101792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalHealth: 150
-  _reward: 3000
+  _totalHealth: 300
+  _reward: 4500
   _animator: {fileID: 6185914004209665384}
   _ragDoll:
   - {fileID: 8826150008356512458}

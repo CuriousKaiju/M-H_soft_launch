@@ -5327,7 +5327,7 @@ PrefabInstance:
       objectReference: {fileID: 368081801}
     - target: {fileID: 8659269171981988880, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Merge
+      value: Map
       objectReference: {fileID: 0}
     - target: {fileID: 8659269171981988882, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_IsActive

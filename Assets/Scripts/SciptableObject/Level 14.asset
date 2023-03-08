@@ -17,13 +17,13 @@ MonoBehaviour:
   preyOnTheHunt: 0300000003000000
   isLevelWithBoss: 0
   boss: 0
-  levelSpeed: 0.079
-  minPreyShift: 0.054
-  maxPreyShift: 0.088
+  levelSpeed: 0.085
+  minPreyShift: 0.08
+  maxPreyShift: 0.13
   minPredatorsShift: -0.08
   maxPredatorsShift: 0
   minBossShift: 0.1
   maxBossShift: 0.2
-  sceneType: Savanna
-  availablePathesForPredators: 11
-  availablePathesForPrey: 6
+  sceneType: WinterForest
+  availablePathesForPredators: 12
+  availablePathesForPrey: 7

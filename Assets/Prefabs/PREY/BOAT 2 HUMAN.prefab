@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2217398888973154232, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+      propertyPath: _reward
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238490165854202090, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+      propertyPath: _reward
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 4633259457216117105, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +61,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
       propertyPath: m_Name
-      value: BOAT  1 HUMAN
+      value: BOAT 2 HUMAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264717051825691458, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+      propertyPath: m_Size.y
+      value: 0.35119554
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264717051825691458, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+      propertyPath: m_Size.z
+      value: 4.400294
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264717051825691458, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+      propertyPath: m_Center.y
+      value: 0.15592441
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264717051825691458, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+      propertyPath: m_Center.z
+      value: 0.54488724
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443592490408565557, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}

@@ -17,7 +17,7 @@ MonoBehaviour:
   preyOnTheHunt: 00000000
   isLevelWithBoss: 0
   boss: 0
-  levelSpeed: 0.13
+  levelSpeed: 0.1
   minPreyShift: 0.2
   maxPreyShift: 0.35
   minPredatorsShift: -0.08
@@ -26,4 +26,4 @@ MonoBehaviour:
   maxBossShift: 0.2
   sceneType: Ocean
   availablePathesForPredators: 12
-  availablePathesForPrey: 8
+  availablePathesForPrey: 12

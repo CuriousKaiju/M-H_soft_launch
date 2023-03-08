@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Ocean Creature
   m_EditorClassIdentifier: 
   _pray:
-  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
-  - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
+  - {fileID: 2275986016787632525, guid: d3b80874b8add49419da9e7d00e1109e, type: 3}
+  - {fileID: 2275986016787632525, guid: 7a2ca30f17c6c0546abe78fa7a09d960, type: 3}
   - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
   - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
   - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
@@ -24,11 +24,7 @@ MonoBehaviour:
   - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
   - {fileID: 4633259457216117111, guid: a0bbba6c378b45d45b9b61381a099716, type: 3}
   _bosses:
-  - {fileID: 2275986016787632525, guid: f71046b4c5d20804f992f52227251ef6, type: 3}
-  - {fileID: 2275986016787632525, guid: 5ce03dd616b5dd24380e83f82a768dce, type: 3}
-  - {fileID: 2275986016787632525, guid: 4ef08dd00e0b34f488b5d7eaace9464a, type: 3}
-  - {fileID: 2275986016787632525, guid: 508a09d711561e745b16a406299c32de, type: 3}
-  - {fileID: 2275986016787632525, guid: ce557d237839e2a498eb6682b117ed47, type: 3}
+  - {fileID: 2275986016787632525, guid: ae2d8989a8bf0c64483922eb906dda26, type: 3}
   _predators:
   - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}
   - {fileID: 6278039722041392507, guid: 4e610ecc8260a31479d415a4d689c2c2, type: 3}

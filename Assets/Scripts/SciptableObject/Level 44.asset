@@ -17,9 +17,9 @@ MonoBehaviour:
   preyOnTheHunt: 080000000900000007000000
   isLevelWithBoss: 0
   boss: 0
-  levelSpeed: 0.15
+  levelSpeed: 0.17
   minPreyShift: 0.25
-  maxPreyShift: 0.35
+  maxPreyShift: 0.4
   minPredatorsShift: -0.08
   maxPredatorsShift: 0
   minBossShift: 0.1
