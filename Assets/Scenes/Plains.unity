@@ -5241,19 +5241,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8659269170672458502, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269170672458502, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269170672458502, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 202.0475
       objectReference: {fileID: 0}
     - target: {fileID: 8659269170672458502, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 8659269171022154988, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5389,19 +5389,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8659269171888131929, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269171888131929, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269171888131929, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 190.7775
       objectReference: {fileID: 0}
     - target: {fileID: 8659269171888131929, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 8659269171981988880, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -5441,19 +5441,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172261654731, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172261654731, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172261654731, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -157.4125
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172261654731, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172288868427, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -5461,19 +5461,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172417576612, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172417576612, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172417576612, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -168.68253
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172417576612, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 8659269172417576613, guid: 383654f4e884651419342e63df7e2523, type: 3}
       propertyPath: m_fontColor32.rgba
