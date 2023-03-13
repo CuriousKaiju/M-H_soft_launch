@@ -38,19 +38,19 @@ Material:
     m_Ints: []
     m_Floats:
     - _Coverage: 0.429
-    - _Noise01Power: 0.626
-    - _Noise02Power: 0
+    - _Noise01Power: 0.8
+    - _Noise02Power: 0.374
     - _ScatteringPower: 0
     - _Softness: 1
     - _Tiling01: -30
-    - _Tiling02: 1
+    - _Tiling02: 20
     - _UseFog: 1
     - _ViewDistance: 1000
     - __dirty: 0
     - _cloudsHeight: 1
-    - _cloudsPosition: -22.300003
+    - _cloudsPosition: 18.7
     m_Colors:
     - _CloudsColor: {r: 0.009433985, g: 0.009433985, b: 0.009433985, a: 1}
     - _DirectionSpeed: {r: 3, g: 2, b: 0, a: -7.6}
-    - _ScatteringColor: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+    - _ScatteringColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
   m_BuildTextureStacks: []
